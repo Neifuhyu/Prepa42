@@ -6,7 +6,7 @@
 /*   By: nbourdiol <nbourdiol@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 16:36:07 by nbourdiol         #+#    #+#             */
-/*   Updated: 2023/12/19 01:10:51 by nbourdiol        ###   ########.fr       */
+/*   Updated: 2023/12/19 13:29:55 by nbourdiol        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ int	main(void)
 		min_multiplicateur ++;
 		if (min_multiplicateur > max_multiplicateur)
 		{
+			printf("-----------\n");
 			table_min++;
 			min_multiplicateur = 0;
 		}
